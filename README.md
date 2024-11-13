@@ -5,6 +5,7 @@
 
 ### Descripción general del sistema
 - **OS:** Open Media Vault (OMV) - Linux (Debian-based)
+- **Fecha de instalación:** 09-10-2024
 - **Algunos paquetes preinstalados que vienen con OMV**:
   - **Docker**: Container manager para virtualización
   - **Python**: v3.11.2
@@ -20,30 +21,29 @@
 
 ---
 
-### Paquetes instalados (a través de `apt install`)
+### Paquetes instalados (a través de `apt install o curl`)
 
 | Package        | Fecha de Instalación | Descripción                                                                                                   |
 |----------------|-------------------|---------------------------------------------------------------------------------------------------------------|
 | **plex media server** | 09-10-2024        | !Instalación provisoria; migrar a contenedor Docker           |
 | **noip-duc**           | 15-10-2024       | Dynamic DNS Update Client para mantener una dirección IP actualizada para el acceso externo [No-IP](https://www.noip.com/) |
 | **git**                | 05-11-2024       | git es git                     |
+| **VS Code**            | 06-11-2024       | VS Code                     |
 
 ---
 
 ### Docker Containers
 
-| Container | Descripción                 | Reference/Info                                             |
-|-----------|--------------------------|------------------------------------------------------------|
-| **portainer** | Docker manager GUI | [Portainer](https://www.portainer.io/)                     |
-| **homepage**  | Server dashboard      | [Homepage](https://gethomepage.dev/)                       |
+| Container | Fecha de Instalación | Descripción                 | Info                                             |
+|-----------|-----------|---------------|------------------------------------------------------------|
+| **portainer** | 16-10-2024 | Docker manager GUI | [Portainer](https://www.portainer.io/)                     |
+| **homepage**  | 07-10-2024 | Server dashboard      | [Homepage](https://gethomepage.dev/)                       |
+| **NextCloud** | 12-10-2024 | Self Hosted Personal Cloud      | [NextCloud](http://https://nextcloud.com/)                     |
 
 ---
 
 ### Server Roadmap
 
-1. **Install Visual Studio Code (VS Code)**: para reemplazar nano
-2. **Install Nginx**: Multi-functional server for HTTP, reverse proxy, caching, load balancing, and proxy services. [web nginx](https://nginx.org/en/)
-3. **Cloud Storage**:
-   - Opciones: Nextcloud(prbablemente muy pesado) o alternativas más adecuadas a los recursos de Raspberry Pi 5
-4. **Torrent Client**: Instalar algún cliente torrent, probablemente qbitorrent
-5. **AI Server Setup**: Instalar servidor de IA, considerar los límites de la Raspberry Pi 5
+1. **Install Nginx**: Multi-functional server for HTTP, reverse proxy, caching, load balancing, and proxy services. [web nginx](https://nginx.org/en/)
+2. **Torrent Client**: Instalar algún cliente torrent, probablemente qbitorrent
+3. **AI Server Setup**: Instalar servidor de IA, considerar los límites de la Raspberry Pi 5
